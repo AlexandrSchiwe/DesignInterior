@@ -71,7 +71,7 @@ html {
 ================================= */
 
 
-header >  nav {
+body >  nav {
     background: #2e2e2e;
     display: flex;
     width: 100%;
@@ -79,25 +79,25 @@ header >  nav {
     top: 0;
     align-items: center;
     justify-content: space-between;
-    margin-top: -5px;
+    margin-top: -15px;
 }
 
-header > nav > img {
+body > nav > img {
     width: 6%;
     margin: 0 0 0 10px;
 }
 
-header nav ul {
+body nav ul {
     text-align: right;
     margin-right: 5%;
 }
 
-header > nav > ul > li {
+body > nav > ul > li {
     list-style: none;
     display: inline;
 }
 
-header > nav > ul > li > a {
+body > nav > ul > li > a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
@@ -165,6 +165,18 @@ header > nav > ul > li > a {
 
 #touch {
     display: flex;
+    justify-content: space-between;
+    background: #2e2e2e;;
+}
+
+#touch > div {
+    padding: 10vh 0 15vh 20%;
+    color: #fff;
+}
+
+#touch > form {
+    padding: 10vh 30% 5vh 30%;
+    color: #fff;
 }
 
 /* ================================
