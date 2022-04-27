@@ -170,13 +170,50 @@ body > nav > ul > li > a {
 }
 
 #touch > div {
-    padding: 10vh 0 15vh 20%;
+    padding: 10vh 5% 15vh 10%;
     color: #fff;
+    font-family: 'Lora', serif;
+}
+
+#touch > div > h2 {
+    font-size: 3rem;
+}
+
+#touch > div > p:first-of-type {
+    font-size: 1.8rem;
+    margin-top: 5vh;
+}
+
+#touch > div > p:last-of-type {
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-top: 5vh;
 }
 
 #touch > form {
-    padding: 10vh 30% 5vh 30%;
+    margin: 10vh 30% 5vh 10%;
     color: #fff;
+}
+
+#touch > form > input {
+    display: block; 
+    width: 20vw;
+}
+
+#touch > form > input:first-of-type {
+    margin-bottom: 3vh;
+}
+
+#touch > form > input:nth-of-type(2) {
+    margin-bottom: 3vh;
+}
+
+#touch > form > input:last-of-type {
+    margin-bottom: 3vh;
+}
+
+#touch > form > input:last-of-type {
+    height: 5vh;
 }
 
 /* ================================
@@ -189,4 +226,64 @@ footer {
 
 footer nav {
     display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 3vh 0;
+}
+
+footer nav p:first-of-type {
+    margin-left: 20px;
+}
+
+footer nav p:last-of-type {
+    margin-left: 90px;
+}
+
+footer nav ul {
+    list-style: none;
+    
+}
+
+footer nav ul {
+    display: inline;
+    display: flex;
+}
+
+footer nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+/* ================================
+            Footer
+================================= */
+
+@media screen and (max-width: 600px) {
+    #headline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #touch {
+        display: flex;
+        justify-content: space-between;
+        background: #2e2e2e;
+        flex-wrap: wrap;
+    }
+
+    #touch > form {
+        margin: 5vh 0 5vh 10%;
+        color: #fff;
+    }
+
+    #touch > form > input {
+        display: block; 
+        width: 50vw;
+    }
 }
